@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.micro-5-regular {
+  font-family: "Micro 5", sans-serif;
+}
+
+.rubik-kv {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.clicked {
+  transform: scale(0.95); /* Adjust the scale as desired */
+  transition: transform 0.05s; /* Adjust the transition duration as needed */
+}
+
+.bgw {
+  background-image: repeating-radial-gradient(
+      circle at 0 0,
+      transparent 0,
+      #ebf4e1 68px
+    ),
+    repeating-linear-gradient(#fcf4e5, #fcf4e5);
+  background-color: #ebf4e1;
+}
